@@ -163,56 +163,6 @@ Google Form을 통해 제출된 내용을 확인한 후 Discord 채널에 직접
 
 ---
 
-## 워크플로우
-
-```
-Google Form 제출
-
-↓
-
-Google Sheets 저장
-
-↓
-
-제출 여부 확인
-
-↓
-
-Discord 자동 알림
-```
-
----
-
-## Trigger
-
-Google Sheets - Watch New Rows
-
----
-
-## Filter
-
-제출 여부 = 예
-
----
-
-## Action
-
-Discord - Send a Message
-
----
-
-## 구현 화면
-
-> 📷 Make 시나리오 화면
-
----
-
-## 실행 결과
-
-> 📷 Discord 자동 메시지 화면
-
----
-
 # Trigger / Action 개념 설명
 
 Trigger는 워크플로우를 시작시키는 이벤트이며 외부 입력 조건이다.  
